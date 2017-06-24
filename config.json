@@ -1,0 +1,22 @@
+{
+	"zones": [{
+			"name": "example.com",
+			"domains_to_update": [{"name": "example.com", "proxied":true}, {"name": "ftp.example.com", "proxied":false}],
+			"type": "A"
+		},
+		{
+			"name": "example.xyz",
+			"domains_to_update": [{"name": "example.xyz", "proxied":true}],
+			"type": "A"
+		}
+	],
+	"settings": {
+		"repeatEvery": 30,
+		"X-Auth-Email": "example@hotmail.com",
+		"X-Auth-Key": "asdasdasdasdasdasdasdasdasdas",
+		"debugger": true,
+		"console_debug": true,
+		"file_debug": "debug.txt"
+	}
+
+}
